@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+    <meta name="theme-color" content="#131314" />
+    <meta name="color-scheme" content="dark" />
+    <title>Luna AI</title>
+    <meta name="description" content="Luna, asisten AI dari Gimoy Studio dengan akun username dan riwayat percakapan yang tersimpan." />
+    <meta property="og:title" content="Luna AI" />
+    <meta property="og:description" content="Luna, asisten AI dari Gimoy Studio dengan akun username dan riwayat percakapan yang tersimpan." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Puter.js: akses AI langsung dari browser, tanpa API key -->
+    <script src="https://js.puter.com/v2/"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#131314] text-[#e3e3e3] antialiased h-full w-full overflow-hidden selection:bg-amber-400/30 selection:text-amber-100 overscroll-none">
+    <!-- Global Synchronized SVG Mask for Luna Orb -->
+    <svg width="0" height="0" style="position: absolute; width: 0; height: 0; pointer-events: none; overflow: hidden;" aria-hidden="true">
+      <defs>
+        <mask id="luna-orb-shared-mask" maskUnits="userSpaceOnUse" x="-30" y="-30" width="160" height="160">
+          <polygon points="35,15 85,35 65,85 15,65" fill="#fff" />
+          <polygon points="50,10 90,50 50,90 10,50" fill="#fff" />
+          <polygon points="40,20 80,30 70,80 20,60" fill="#fff" />
+          <polygon points="25,25 75,25 75,75 25,75" fill="#fff" />
+          <polygon points="30,10 80,40 60,90 10,60" fill="#fff" />
+          <polygon points="45,15 85,55 55,85 15,45" fill="#fff" />
+          <polygon points="50,15 85,45 70,85 30,85 15,45" fill="#fff" />
+        </mask>
+      </defs>
+    </svg>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
